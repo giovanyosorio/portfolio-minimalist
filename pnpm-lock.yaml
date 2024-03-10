@@ -11,6 +11,9 @@ dependencies:
   astro:
     specifier: ^4.4.15
     version: 4.4.15(typescript@5.4.2)
+  hotkeypad:
+    specifier: ^0.1.1
+    version: 0.1.1
   ninja-keys:
     specifier: ^1.2.2
     version: 1.2.2
@@ -1816,6 +1819,10 @@ packages:
       hast-util-parse-selector: 4.0.0
       property-information: 6.4.1
       space-separated-tokens: 2.0.2
+    dev: false
+
+  /hotkeypad@0.1.1:
+    resolution: {integrity: sha512-v8e9aByI1ReBX30bL/+dHQwsg+UGZaU4WXEWv72DG74h7fSToUm0udXam5tDCns4NsmWLXKzAL3Rjd9FfTjGXw==}
     dev: false
 
   /hotkeys-js@3.8.7:
