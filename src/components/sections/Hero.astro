@@ -1,10 +1,23 @@
 ---
 import { basics } from "@cv";
 const { name, label, image, location, profiles, phone, email } = basics;
+const { city, region, countryCode } = location;
+
 import Section from "@/components/Section.astro";
 import Mail from "@/icons/Mail.astro";
 import Phone from "@/icons/Phone.astro";
-const { city, region, countryCode } = location;
+import X from "@/icons/X.astro"
+import LinkedIn from "@/icons/LinkedIn.astro"
+import GitHub from "@/icons/GitHub.astro"
+import WorldMap from "@/icons/WorldMap.astro";
+
+const SOCIAL_ICONS:Record<string, any> = {
+    LinkedIn, // Corrected the key value
+    GitHub,
+   X,
+};
+
+
 ---
 
 <Section>
@@ -13,6 +26,7 @@ const { city, region, countryCode } = location;
             <h1>{name}</h1>
             <h2>{label}</h2>
             <span>
+                <WorldMap/>
                 {city}, {region}
             </span>
             <footer>
@@ -40,6 +54,22 @@ const { city, region, countryCode } = location;
                         </a>
                     )
                 }
+        {
+            profiles.map(({ network, url, username }) => {
+              const Icon = SOCIAL_ICONS[network]
+  
+              return (
+                <a
+                  href={url}
+                  title={`Visitar el perfil de ${name} en ${network}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Icon />
+                </a>
+              )
+            })
+          }
             </footer>
         </div>
         <figure>
@@ -48,4 +78,66 @@ const { city, region, countryCode } = location;
     </div>
 </Section>
 
-<style></style>
+<style>
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-right: 32px;
+}
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    color:#444;
+    font-weight: 500;
+    font-size: 1rem;
+    text-wrap:balance;
+}
+img{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius:16px ;
+    width: 120px;
+}
+span{
+    color:#666;
+    display: flex;
+    align-items: center;
+    gap:.25rem;
+    font-size:0.85rem ;
+    letter-spacing: -0.05rem;
+}
+footer{
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+
+}
+footer a{
+    color: #666;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    border:1px solid #eee;
+    padding: 4px;
+    height: 32px;
+    width: 32px;
+
+    border-radius: 50%;
+}
+footer a:hover{
+    background-color: #eee;
+    border:1px solid #ddd;
+}
+</style>
