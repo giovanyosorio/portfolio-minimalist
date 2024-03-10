@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Giovany Osorio",
-    "label": "Desarrollado de Software",
+    "label": "Desarrollador de Software",
     "image": "/gio.jpeg",
     "email": "giovany.torres.799@gmail.com",
     "phone": "+57 304 637 1169",
@@ -10,25 +10,25 @@
     "location": {
       "address": "",
       "postalCode": "08820",
-      "city": "el Prat de Llobregat",
-      "countryCode": "ES",
-      "region": "España"
+      "city": "Bogota",
+      "countryCode": "CO",
+      "region": "Colombia"
     },
     "profiles": [
       {
         "network": "LinkedIn",
         "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
+        "url": "https://www.linkedin.com/in/giovany-osorio/"
       },
       {
         "network": "X",
         "username": "midudev",
-        "url": "https://x.com/midudev"
+        "url": "https://twitter.com/GiovanyOsorio12"
       },
       {
         "network": "GitHub",
         "username": "midudev",
-        "url": "https://github.com/midudev"
+        "url": "https://github.com/giovanyosorio"
       }
     ]
   },
