@@ -6,7 +6,7 @@
     "email": "giovany.torres.799@gmail.com",
     "phone": "+57 304 637 1169",
     "url": "https://giovanyosorio.me/",
-    "summary": "+2 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "summary": "+2 años de experiencia como Desarrollador Web. Actualmente estudiante de Ingenieria en Telematica y programador en una empresa de investigacion de mercados. Vivo en Bogota, Colombia. Me encanta aprender y enseñar sobre programación. Soy un apasionado de la tecnología y la educación.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -34,33 +34,43 @@
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
+      "name": "Dichter & Neira",
+      "position": "Programador",
+      "url": "https://dichter-neira.com/",
+      "startDate": "2022-04-01",
       "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+      "summary": "Programacion de estudios, atender solicitud de cambios a plantillas programadas o activas, limpiezas de bases de datos de los estudios programados, entregas de bases de datos segun formato solicitado por el cliente",
       "highlights": [
         "Started the company"
       ]
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+      "name": "Servibitco",
+      "position": "Freelancer Desarrollador Wordpress",
+      "url": "https://www.servibitco.com/",
+      "startDate": "2022-05-01",
+      "endDate": "2023-04-01",
+      "summary": "Desarrolle e implemente sitio web para real estate, implemente y configure plugins para la optimizacion del sitio web. Realice la base de datos para el manejo de propiedades y usuarios.",
       "highlights": [
         "Started the company"
       ]
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+      "name": "Kantar",
+      "position": "Data Processing",
+      "startDate": "2021-07-01",
+      "endDate": "2022-03-01",
+      "summary": "Como procesador de datos, fui responsable de recopilar, revisar y procesar datos de investigacion de mercados, para su posterior analisis y presentacion de resultados. Desde la entrada de datos, la verificacion de la exactitud de los datos, el mantenimiento de la base de datos, la creacion de tablas y graficos, hasta la presentacion de resultados.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Linktic SAS",
+      "position": "Software Developer",
+      "startDate": "2018-10-01",
+      "endDate": "2019-03-01",
+      "summary": "Desarrollo y  mantenimiento de la base de datos, desarrollo de la pagina web y escalabilidad de ella misma, dando soporte a todos los clientes hoteleros. Ademas .",
       "highlights": [
         "Started the company"
       ]
