@@ -98,6 +98,17 @@
     "courses": [
       "DB1101 - Basic SQL"
     ]
+  },{
+    "institution": "Universidad Distrital Francisco Jose De Caldas",
+    "url": "https://www.udistrital.edu.co/inicio",
+    "area": "Ingeniero en Telematica",
+    "studyType": "Bachelor",
+    "startDate": "2021-01-01",
+    "endDate": "2024-12-11",
+    "score": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
   }],
   "awards": [{
     "title": "Award",
