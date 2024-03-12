@@ -101,10 +101,10 @@
   },{
     "institution": "Universidad Distrital Francisco Jose De Caldas",
     "url": "https://www.udistrital.edu.co/inicio",
-    "area": "Ingeniero en Telematica",
+    "area": "Tecnologo en sistematización de datos",
     "studyType": "Bachelor",
-    "startDate": "2021-01-01",
-    "endDate": "2024-12-11",
+    "startDate": "2015-01-01",
+    "endDate": "2020-12-11",
     "score": "4.0",
     "courses": [
       "DB1101 - Basic SQL"
