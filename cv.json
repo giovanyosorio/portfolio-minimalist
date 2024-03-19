@@ -231,14 +231,14 @@
   }],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "Earthquake App",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "description": "Realidad aumentada para aprender el movimiento de la tierra",
       "highlights": [
         "Elige tu propia aventura",
         "En desarrollo"
       ],
-      "url": "https://mars.codes"
+      "url": "halyfax.com"
     },
     {
       "name": "AdventJS",
