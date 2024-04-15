@@ -1,5 +1,5 @@
 # Astro Starter Kit: Basics
-  
+  https://portfolio-minimalist-json.vercel.app/
 ```sh
 npm create astro@latest -- --template basics
 ```
